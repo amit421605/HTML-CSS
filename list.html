@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+    <header style="background-color: aqua; font-style: italic; ">
+
+        <h1>Welcome to My Website </h1><br>
+        <a href = ""><b>Home  </b> </a>
+          <a href = ""><b> About Us  </b></a>
+            <a href = ""><b> Products  </b> </a>
+              <a href = ""> <b>Contact Us  ></b></a>
+    </header>
+<hr>
+<main>
+    <h3>Profile Picture </h3>
+    <img src="images/SiddhuPaji.jpg" height="250 px"alt="Siddhu paji signature move">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quisquam dicta aspernatur veniam, doloribus suscipit ut numquam qui minus odit. Quam doloremque doloribus provident animi rerum aut distinctio, omnis earum.</p>
+<br>
+</main>
+
+
+     <body>
+  <!-- Unoederd List-->
+   <h4> Groceery Shopping List</h4>
+   <ul>
+    <li> Rice</li>
+    <ul>
+        <li> Kolam</li>
+        <li> Basmati</li>
+        <li> Ukda </li>
+    </ul>
+    <li> Dal </li>
+    <ul>
+       
+        <li>Masoor Dal </li>
+        <li> Chana Dal</li>
+        <li> Udad Dal</li>
+    </ul>
+    <li>Maize</li>
+    <li>Milk</li>
+   </ul>
+
+   <!-- Orderd List & nested List -->
+    <h4> TO DO LIST </h4>
+    <ol>
+        <li> Wake up at 6 am</li>
+        <li> Complete with exercise and breakfast</li>
+        <li> Learn academics </li>
+    </ol>
+
+    <!--Description List -->
+    <h4> DinaSours </h4>
+    <dl  style="background-color: red; border: 2px solid">
+        <dt> Dinausor </dt>
+            <dd>
+           Dinosaurs are a diverse group of reptiles that dominated Earth's land ecosystems during the
+            Mesozoic Era (about 230 to 66 million years ago), and modern birds are their only living
+            </dd>
+
+         <dt> Humangasorous </dt>
+            <dd>
+Humungousaur is not a real prehistoric dinosaur, but a popular dinosaur-like alien hero from the animated series Ben 10. However, the name closely resembles two 
+real Cretaceous dinosaurs, Hungarosaurus and Majungasaurus.
+            </dd>
+    </dl>
+    <!--Creating Table in html-->
+    <table style = "background-color: black; border : 2px">
+        <tr align="center" style = "background-color:lightblue ; border : 2px " >
+            <th width="100">Sunday</th>
+              <th width="100">Monday</th>
+                <th width="100">Tuesday</th>
+                  <th width="100">Wednesday</th>
+                    <th width="100">Thursday</th>
+                      <th width="100">Friday</th>
+                        <th width="100">Saturday </th>
+        </tr>
+        <tr align="center"   style = "background-color:aliceblue; border : 2px " >
+            <td width="100">Closed</td>
+              <td width="100"> 9-5</td>
+                <td width="100">9-5</td>
+                  <td width="100">9-5</td>
+                    <td width="100">9-5</td>
+                      <td width="100">9-5</td>
+                        <td width="100">9-5</td>
+        </tr>
+    </table>
+<br>
+
+    <!--Forms in html-->
+    <form action = "index.php" method="POST" enctype="multipart/form-data">
+        <label for="username"> username</label>
+        <input type ="text" id="USERNAME " placeholder="Amit Gupta" minlength="6" maxlength="15" required >
+        <br>
+
+        <label for password> Password </label>
+        <input type="password" id="password"  placeholder=" amit@123" minlength="6" maxlength="10" required>
+        <br>
+
+        <label for ="email">Email Id</label>
+        <input type="email" id="email" placeholder="xyz@gmail.com"required>   <br>
+
+        <labe for="phone">Phone +91</label>
+        <input type="tel" id="phone" placeholder="7304194263" pattern="[0-9]{10}"><br>
+
+     <label for = "Bdate">Birth Data : </label>
+     <input type="date" id="Bdate" required placeholder="00/00/0000"><br>
+
+     <label for = "Quantity">Enter Quantity : </label>
+     <input type="number" id="Quantity" required value="1" min="0" max="99"><br>
+
+           <!--radio buttons --> 
+     <label for ="Title" > Title</label><br>
+     <label for="Doctor"> Doctor </label>
+     <input type="radio" id="Doctor" value="Doctor" name="Title" ><br>
+      <label for="Engineer"> Engineer  </label>
+      <input type="radio" id="Engineer " value="Engineer"  name="Title" ><br>
+
+   <!--Drop down Icons  --> 
+   <label for="Payments">Payment method</label>
+   <select id="Payments">
+<option value="cards"> Card</option>
+<option value="upi"> UPI </option>
+<option value =" Cash"> Cash </option>
+   </select>
+   <br>
+  
+   <!--checkBox-->
+   <label for="CheckBox">Already Subscribed </label>
+   <input type="checkbox" id="CheckBox"><br>
+
+   <!--comment box -->
+    <label for="comment">Comment </label>
+    <textarea id="comment" row="3" cols="10"></textarea> ></textarea> <br>
+
+    <!--choosw file -->
+  <label for="ChooseFile"> Choose File</label> 
+  <input type="file" id="ChooseFile" accept="image/png , image/jpeg"><br>
+
+
+      <input type="reset">
+                  <br>
+         <input type="submit">
+    </form>
+
+        <footer style ="background-color: aliceblue; ">
+<hr>
+         author:Amit Gupta<br>
+         &copy;All copyright reserved<br>
+       <small><a href="mailto:amith30600@gmail.com"> Amit Email:</a>a
+</small> 
+         </footer>
+     </body>
+  </html>
